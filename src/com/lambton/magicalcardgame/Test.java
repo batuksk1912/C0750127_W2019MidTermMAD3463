@@ -5,7 +5,6 @@ import java.util.Scanner;
 
 public class Test {
 
-
     public static void main(String[] args) {
 
         String [][]cardList = { {"1","A","5"},
@@ -21,9 +20,11 @@ public class Test {
 
         Scanner scan = new Scanner(System.in);
 
-        System.out.println("Please guess a number from matrix : ");
+        System.out.println("Please guess a element from matrix : ");
 
         obj.setGuessedCard(scan.nextLine());
+
+        System.out.println("You select : " + obj.getGuessedCard());
 
         System.out.println("Please enter column where your input place in :");
 
