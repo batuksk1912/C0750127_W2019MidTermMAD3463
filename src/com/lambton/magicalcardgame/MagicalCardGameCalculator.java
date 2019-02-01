@@ -119,6 +119,8 @@ public class MagicalCardGameCalculator implements IMagicalCardGame {
 
     @Override
     public String getFinalResult(MagicalCardGameModel magicalCardGameModel) {
-        return null;
+        String[][] temp;
+        temp = magicalCardGameModel.getCardList();
+        return temp[1][1];
     }
 }

@@ -37,15 +37,9 @@ public class Test {
 
         System.out.println(Arrays.deepToString(calculate.getSecShuffleResult(obj)));
 
+        String middle = calculate.getFinalResult(obj);
 
-
-
-
-
-
-
-
-
+        System.out.println("Middle element of Array" + middle);
 
     }
 
