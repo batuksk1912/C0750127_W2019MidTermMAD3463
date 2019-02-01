@@ -31,6 +31,15 @@ public class Test {
 
         System.out.println(Arrays.deepToString(calculate.getFirstShuffleResult(obj)));
 
+        System.out.println("Please enter column where your input place in :");
+
+        obj.setSecShuffleColPos(scan.nextLine());
+
+        System.out.println(Arrays.deepToString(calculate.getSecShuffleResult(obj)));
+
+
+
+
 
 
 
