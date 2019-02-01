@@ -1,4 +1,5 @@
 package com.lambton.magicalcardgame;
+import java.lang.reflect.Array;
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -27,6 +28,8 @@ public class Test {
         System.out.println("Please enter column where your input place in :");
 
         obj.setFirstShuffleColPos(scan.nextLine());
+
+        System.out.println(Arrays.deepToString(calculate.getFirstShuffleResult(obj)));
 
 
 
