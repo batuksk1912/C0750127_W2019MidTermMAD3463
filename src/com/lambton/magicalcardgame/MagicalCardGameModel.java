@@ -1,8 +1,7 @@
 package com.lambton.magicalcardgame;
-
 import java.util.Arrays;
 
-public class MagicalCardGameModel {
+public class MagicalCardGameModel extends MagicalCardGameCalculator {
 
     String firstShuffleColPos;
     String secShuffleColPos;
